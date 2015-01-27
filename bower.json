@@ -1,0 +1,29 @@
+{
+  "name": "crate-jsdk",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chaudum/crate-jsdk",
+  "authors": [
+    "Crate Team <office@crate.io>"
+  ],
+  "description": "A Pure Javascript Development Kit for Crate",
+  "main": "src/crate.js",
+  "keywords": [
+    "crate"
+  ],
+  "license": "Apache License v2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qwest": "git@github.com:pyrsmk/qwest.git#~1.5.4",
+    "Reqwest": "git@github.com:ded/reqwest.git#~1.1.5"
+  },
+  "devDependencies": {
+    "qunit": "git@github.com:jquery/qunit.git#~1.17.1"
+  }
+}
