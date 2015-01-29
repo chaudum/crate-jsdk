@@ -1,6 +1,19 @@
 # crate-jsdk
 Pure Javascript Development Kit for Crate
 
+## Installing
+
+Install `crate-jsdk` via bower:
+
+    bower install https://github.com/chaudum/crate-jsdk.git
+
+Load `crate.js` and its dependencies (only `reqwest`) in your html file:
+
+```html
+<script type="application/javascript" src="/path/to/reqwest.js"></script>
+<script type="application/javascript" src="/path/to/crate.js"></script>
+```
+
 ## Usage
 
 The Crate client requires a single argument which is the host to connect to:
